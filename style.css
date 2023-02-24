@@ -1,4 +1,4 @@
-
+/* 
 .BrowseContainer {
     padding: 10px;
     display: grid;
@@ -27,4 +27,33 @@
     cursor: pointer;
     width: 86%;
     font-size: 18px;
-}
+} */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0a0a23;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+  }
+  
+  select{
+    border:none;
+    padding: 10px 20px;
+    border-radius:5px;
+  }
+  
+  select:focus{
+    outline:none;
+  }
+  .container {
+    background-color: rgba(12, 6, 54,0.35);
+    padding: 20%;
+    margin: -20%;
+    border-radius: 3%;
+  }
+  #jokeDelivery {
+    background-color: #0d0d40;
+  }
+  #submitButton {}
