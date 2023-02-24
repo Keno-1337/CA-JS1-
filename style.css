@@ -1,0 +1,30 @@
+
+.BrowseContainer {
+    padding: 10px;
+    display: grid;
+    grid-gap: 1%;
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+}
+.BrowseItems {
+    color: var(--Mintgreen-font-color);
+    backdrop-filter: blur(10px);
+    border-radius: 2%;
+    box-shadow: 0 4px 16px 0  rgba(0, 0, 0, 1);
+    background-color: rgba(32, 6, 59,0.50);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.purchasebtn {
+    color: var(--Mintgreen-font-color);
+    text-align: center;
+    border:none;
+    outline: 0;
+    padding: 12px;
+    background-color: #000;
+    cursor: pointer;
+    width: 86%;
+    font-size: 18px;
+}
