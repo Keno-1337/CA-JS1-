@@ -1,9 +1,18 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>API Call Test</title>
         <link rel="stylesheet" href="style.css">
-        <script src="/script.js"></script>
+    </head>
+    <header>
+        <div class="navigation">
+            <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="details.html">Details</a>
+        </nav>
+        </div>
+  </header>
         <!-- <div class="container">
             <h1>Input</h1>
             <p>lorem ipsum</p>
@@ -20,8 +29,8 @@
                     </a>
                 </div>
         </div> -->
-        
-<div class="container">
+<div class="jokeContainer">
+
 <label for="language">Make your selection:</label>
 <select name="language" id="language">
   <option value="random">Random joke</option>
@@ -29,9 +38,12 @@
   <option value="c++" disabled>By ID</option>
 </select>
 <br>
-<button id="submitButton">Submit</button>
-<p id="jokeDelivery">katta med slips</p>
+
+<button id="jokeButton">Get Joke</button>
+<div id="loadingIndicator" style="display: none;">Clearing throat...</div>
+<div id="joke"></div>
+<script src="/script.js"></script>
 </div>
 
-    </head>
+
 </html>
