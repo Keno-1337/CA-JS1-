@@ -1,5 +1,4 @@
-// attempt at details.html
-//I can not get this part to work properly... No idea what im doing wrong.
+// details.html
 // fetch('https://official-joke-api.appspot.com/random_joke')
 //   .then(response => response.json())
 //   .then(data => {
