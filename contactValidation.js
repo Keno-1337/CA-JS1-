@@ -38,7 +38,7 @@ function validateForm() {
   } else {
     hideError("address");
   }
-}
+
 
 function isValidEmail(email) {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
