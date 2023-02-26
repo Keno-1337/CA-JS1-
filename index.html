@@ -15,24 +15,6 @@
   </header>
   <body>
     <div id="results-container"></div>
-
-        <!-- <div class="container">
-            <h1>Input</h1>
-            <p>lorem ipsum</p>
-            
-            <div class="BrowseContainer">
-                <div class="BrowseItems">
-                    <h1>input type</h1>
-                    <p>Jo of the day</p>
-                    <p id="joke"></p>
-                    <a href="">
-                        <p class="purchasebtn">submit</p>
-                        <input type="text">
-
-                    </a>
-                </div>
-        </div> -->
-
 <div class="jokeContainer">
 <h1>
 <label for="jokeSelect">Make your selection:</label>
@@ -47,10 +29,9 @@
 
 <button id="jokeButton">Get Joke</button>
 <button id="jokesButton">Get 10 Jokes</button>
-<button onclick="getJokeById()">Get Joke by ID</button>
-<label for="jokeId">Enter joke ID:</label>
+<label for="jokeId">Get Joke by ID:</label>
 <input type="text" id="jokeId" name="jokeId">
-
+<button onclick="getJokeById()">Get Joke by ID</button>
 <div id="loadingIndicator" style="display: none; color: rgb(91, 91, 91);">Clearing throat...</div>
 <div id="joke"></div>
 <script src="/script.js"></script>
