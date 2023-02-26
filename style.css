@@ -1,33 +1,3 @@
-/* 
-.BrowseContainer {
-    padding: 10px;
-    display: grid;
-    grid-gap: 1%;
-    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-}
-.BrowseItems {
-    color: var(--Mintgreen-font-color);
-    backdrop-filter: blur(10px);
-    border-radius: 2%;
-    box-shadow: 0 4px 16px 0  rgba(0, 0, 0, 1);
-    background-color: rgba(32, 6, 59,0.50);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-}
-.purchasebtn {
-    color: var(--Mintgreen-font-color);
-    text-align: center;
-    border:none;
-    outline: 0;
-    padding: 12px;
-    background-color: #000;
-    cursor: pointer;
-    width: 86%;
-    font-size: 18px;
-} */
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #0a0a23;
@@ -37,35 +7,65 @@ body{
     align-items:center;
     color:#fff;
   }
-  
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 10px;
+}
   select{
     border:none;
     padding: 10px 20px;
     border-radius:5px;
   }
-  
-  select:focus{
-    outline:none;
+  button{
+    border:gray;
+    border:29px;
+    padding: 10px 20px;
+    border-radius:5px;
+    background:#000000;
+    color:#fff;
+    cursor:pointer;
   }
-#joke {
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin: 2rem 0;
-    text-align: center;
-    background-color: rgba(19, 19, 68,0.6);
-}
-#jokeContainer {
+  button:hover{
+    background:#fff;
+    color:#000;
+  }
+.jokeContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 75vh;
+}
+  select:focus{
+    outline:none;
   }
-
-#jokeButton {
+#jokeButton, #jokesButton {
     margin-bottom: 20px;
-  }
+}
 
 #loadingIndicator {
     margin-bottom: 20px;
-  }
+}
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 600px;
+}
